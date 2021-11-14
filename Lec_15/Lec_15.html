@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+    <style>
+        .main-content div {
+            height: 20rem;
+        }
+    </style>
+
+</head>
+<!--
+    1rem:   16px
+    2rem:   32px
+    0.5rem: 8px
+-->
+<!-- 
+    1. Header (logo,name,search field etc)
+    2. Main Content
+    3. Footer(address,contact info etc)
+ -->
+
+<body>
+
+    <!--Table
+         <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-success table-bordered table-striped table-hover">
+                        <thead>
+                            <th>Roll</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>M01</td>
+                                <td>Umair</td>
+                                <td>21</td>
+                                <td>023232323</td>
+                                <td>umair@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>M02</td>
+                                <td>Ahmed</td>
+                                <td>21</td>
+                                <td>023232323</td>
+                                <td>umair@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>M03</td>
+                                <td>Atif</td>
+                                <td>21</td>
+                                <td>023232323</td>
+                                <td>umair@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>M04</td>
+                                <td>usama</td>
+                                <td>21</td>
+                                <td>023232323</td>
+                                <td>umair@gmail.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+
+                    <div class="form-floating my-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Age</label>
+                    </div>
+
+                    <label class="form-label" for="gender">Gender</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Male
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Female
+                        </label>
+                    </div>
+
+                    <select class="form-select my-3" aria-label="Default select example">
+                        <option selected>Select Country</option>
+                        <option value="1">Pakistan</option>
+                        <option value="2">America</option>
+                        <option value="3">England</option>
+                    </select>
+
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js\bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

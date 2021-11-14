@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+    <style>
+        .main-content div {
+            height: 20rem;
+        }
+    </style>
+
+</head>
+<!--
+    1rem:   16px
+    2rem:   32px
+    0.5rem: 8px
+-->
+<!-- 
+    1. Header (logo,name,search field etc)
+    2. Main Content
+    3. Footer(address,contact info etc)
+ -->
+
+<body>
+    <div class="container">
+        <div class="row gy-md-5  border">
+            <!-- Header here-->
+            <div class="col-12">
+                <div class="row gy-3 gy-md-0 pt-2 pt-md-0 ">
+                    <div class="col-md-2  bg-info">Logo Here</div>
+                    <div class="col-md-3 offset-md-2 bg-warning ">Website Name Here</div>
+                    <div class="col-auto mx-auto mx-md-0 ms-md-auto">
+                        <input type="text" placeholder="Search here" />
+                        <button class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Content here-->
+            <div class="col-12">
+                <div class="row pt-3 pt-md-0 gy-3 gy-md-0 px-3 px-sm-0 main-content">
+                    <div class="col-md-2 col-sm-5 mx-md-3 mx-lg-4 mx-xxl-5   bg-info ">Div-1</div>
+
+                    <div class="col-md-2 col-sm-5 offset-sm-2 offset-md-0 mx-md-3 mx-lg-4 mx-xxl-5 bg-warning">Div-2</div>
+
+                    <div class="col-md-2 col-sm-5  mx-md-3 mx-lg-4 mx-xxl-5 bg-secondary">Div-3</div>
+
+                    <div class="col-md-2 col-sm-5 offset-sm-2 offset-md-0 mx-md-3 mx-lg-4 mx-xxl-5 bg-success">Div-4</div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row pt-3 pt-md-0 gy-3 gy-md-0 px-3 px-sm-0 justify-content-evenly main-content">
+                    <div class="col-md-2 col-sm-5 bg-info ">Div-1</div>
+
+                    <div class="col-md-2 col-sm-5 bg-warning">Div-2</div>
+
+                    <div class="col-md-2 col-sm-5 bg-secondary">Div-3</div>
+
+                    <div class="col-md-2 col-sm-5  bg-success">Div-4</div>
+                </div>
+            </div>
+        </div>
+        <!--Footer here-->
+        <div class="row mt-md-5 py-3 py-md-0 gy-3 gy-md-0 px-3 px-sm-0 row-cols-sm-2 justify-content-lg-evenly display-6">
+            <div class="col-md-5 bg-info">Footer Text 1(Address)</div>
+            <div class="col-md-5 bg-success">Footer Text 2(Contact Info)</div>
+        </div>
+    </div>
+
+    <script src="js\bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
